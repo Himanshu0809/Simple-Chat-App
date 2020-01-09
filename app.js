@@ -17,7 +17,7 @@ server = app.listen(PORT, function () {
     console.log(`Chat App server started on port ${PORT}`);
 });
 
-const io=require("socket.io");
+const io=require("socket.io")(server);
 
 io.on("connect",(socket)=>{
     console.log("New user connected");
