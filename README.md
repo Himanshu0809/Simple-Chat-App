@@ -3,6 +3,8 @@
 
 It is a simple **chat app** using node.js (express) and socket.io. 
 
+Visit the link: https://simple-chatting-app.herokuapp.com/
+
 ## Run App
 
 1) Download Repo
